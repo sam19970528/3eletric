@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="scss/all.css">
+    <script src="https://kit.fontawesome.com/485c285ffd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="bg">
+            <header style="height: 44px; width: auto; background-color: #930000; position: relative;">
+                <a class="backBtn" href="#">
+                    <i class="fas fa-chevron-left fa-2x"></i>
+                </a>
+                <div class="d-flex justify-content-center">
+                    <div class="headerImg">
+                    </div>
+                </div>
+            </header>
+            <h1 style="text-align: center; color: #ffffff; font-size: 20px; font-weight: bold; margin-top: 20px;">更改狀態</h1>
+            <div>
+                <span style="font-size: 18px; font-weight: bold; color: #ffffff; display: block; margin-left: 55px;">型號</span>
+                <div class="d-inline-flex w-100 justify-content-center" style="margin-top: 8px; margin-bottom: 70px;">
+                    <select class="form-control customSelect" style="margin-right: 10px;">
+                        <option value="">XDD</option>
+                    </select>
+                    <input class="customInput" type="text" placeholder="輸入">
+                </div>
+            </div>
+            <div>
+                <span style="font-size: 18px; font-weight: bold; color: #ffffff; display: block; margin-left: 55px;">客戶</span>
+                <div class="d-inline-flex w-100 justify-content-center" style="margin-top: 8px; margin-bottom: 70px;">
+                    <select class="form-control customSelect" style="margin-right: 10px;">
+                        <option value="">甲</option>
+                    </select>
+                    <input class="customInput" type="text" placeholder="輸入">
+                </div>
+            </div>
+            <div>
+                <span style="font-size: 18px; font-weight: bold; color: #ffffff; display: block; margin-left: 55px;">狀態</span>
+                <div class="d-inline-flex w-100 justify-content-center" style="margin-top: 8px; margin-bottom: 50px;">
+                    <select class="form-control customSelect" style="width: 280px;">
+                        <option value="">良品</option>
+                    </select>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <button class="productCode" type="button">產品掃碼</button>
+            </div>
+            <div class="footerBar">
+                <div class="d-inline-flex justify-content-between"
+                    style="width: 100%; padding: 0 25px; padding-top: 18px;">
+                    <a href="./LV1-1productCode.html">
+                        <i class="fas fa-qrcode"></i>
+                    </a>
+                    <a href="./LV1-1stockSearch.html">
+                        <i class="fas fa-align-justify"></i>
+                    </a>
+                    <a href="./LV1-1chageStatus.html">
+                        <i class="fas fa-exchange-alt"></i>
+                    </a>
+                    <a href="#">
+                        <i class="material-icons">message</i>
+                    </a>
+                    <a href="./LV1~4login.html">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style scoped>
+        .form-control {
+            border-radius: 20px;
+            width: 139px;
+            height: 40px;
+            font-size: 22px;
+            font-family: "Segoe UI", "微軟正黑體", sans-serif;
+            font-weight: bold;
+            background-clip: unset;
+            border: 0;
+        }
+        .customInput{
+            color: #ffffff;
+            font-weight: bold;
+            border-radius: 20px;
+            background-clip: unset;
+            border: 1px solid #ffffff;
+            width: 133px;
+            background-color: transparent;
+            padding-left: 15px;
+        }
+        .productCode{
+            width: 100px;
+            height: 100px;
+            background-color: #930000;
+            border-radius: 50%;
+            box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.16);
+            color: #ffffff;
+            font-size: 16px;
+            border: 0;
+        }
+        input:focus {
+            outline: none;
+        }
+        ::-webkit-input-placeholder { color: #ffffff; opacity: 0.5; padding-top: 5px; }
+    </style>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.backBtn').click(function(e){
+                e.preventDefault();
+                window.history.back();
+            })
+            $('.productCode').click(function(e){
+                e.preventDefault();
+                $(location).attr('href', './LV1-1chageStatusScan.html');
+            })
+        });
+    </script>
+</body>
+
+</html>

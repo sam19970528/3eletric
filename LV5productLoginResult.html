@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="scss/all.css">
+    <script src="https://kit.fontawesome.com/485c285ffd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="bg">
+            <header style="height: 44px; width: auto; background-color: #930000; position: relative;">
+                <a class="backBtn" href="#">
+                    <i class="fas fa-chevron-left fa-2x"></i>
+                </a>
+                <div class="d-flex justify-content-center">
+                    <div class="headerImg">
+                    </div>
+                </div>
+            </header>
+            <div class="brownBox" style="margin-top: 20px; height: 500px;">
+                <div style="text-align: center; margin-top: 25px;">
+                    <img src="./img/eletric@2x.png" width="145" height="110" >
+                </div>
+                <div class="d-inline-flex w-100" style="margin-top: 50px; padding-left: 40px;">
+                    <div style="margin-right: 40px;">
+                        <label class="customLabel">產品型號</label>
+                        <span class="customSpan">S123456</span>
+                    </div>
+                </div>
+                <div class="d-inline-flex w-100" style="margin-top: 20px; padding-left: 40px;">
+                    <div style="margin-right: 40px;">
+                        <label class="customLabel">產品序號</label>
+                        <span class="customSpan">112233445</span>
+                    </div>
+                </div>
+                <div style="padding-left: 40px; margin-top: 20px;">
+                    <div>
+                        <label class="customLabel">登錄日期/時間</label>
+                        <span class="customSpan">2018 / 08 /01 &emsp; 22: 00</span>
+                    </div>
+                </div>
+                <div class="d-inline-flex w-100 justify-content-center" style="margin-top: 70px;">
+                    <div>
+                        <button id="startWarranty" class="redBtn" type="button">啟動保固</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBar">
+                <div class="d-inline-flex justify-content-between"
+                    style="width: 100%; padding: 0 25px; padding-top: 18px;">
+                    <a href="./LV5productLoginScan.html">
+                        <i class="fas fa-qrcode"></i>
+                    </a>
+                    <a href="#">
+                        <i class="material-icons">message</i>
+                    </a>
+                    <a href="./LV1~4login.html">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style scoped>
+        .form-control {
+            border-radius: 20px;
+            width: 139px;
+            height: 40px;
+            font-size: 22px;
+            font-family: "Segoe UI", "微軟正黑體", sans-serif;
+            font-weight: bold;
+            background-clip: unset;
+            border: 0;
+        }
+        .customLabel{
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 5px;
+        }
+        .customSpan{
+            font-size: 14px;
+            color: #ffffff;
+            display: block;
+        }
+        .customInput{
+            color: #ffffff;
+            font-weight: bold;
+            border-radius: 20px;
+            background-clip: unset;
+            border: 1px solid #ffffff;
+            width: 133px;
+            background-color: transparent;
+            padding-left: 15px;
+        }
+        .codeSearch,.search{
+            width: 100px;
+            height: 100px;
+            background-color: #930000;
+            border-radius: 50%;
+            box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.16);
+            color: #ffffff;
+            font-size: 16px;
+            border: 0;
+        }
+        .redBtn{
+            width: 105px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: #fc4545;
+            color: #ffffff;
+            font-size: 16px;
+            background-clip: unset;
+            border: 0;
+
+        }
+        input:focus {
+            outline: none;
+        }
+        ::-webkit-input-placeholder { color: #ffffff; opacity: 0.5; padding-top: 5px; }
+    </style>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.backBtn').click(function(e){
+                e.preventDefault();
+                window.history.back();
+            })
+            $("#startWarranty").click(function(){
+                $(location).attr('href', './LV5startWarrantySuccess.html');
+            })
+
+        });
+    </script>
+</body>
+
+</html>

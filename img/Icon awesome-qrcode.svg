@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.154" height="37.154" viewBox="0 0 37.154 37.154">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <path id="Icon_awesome-qrcode" d="M0 18.173h15.923V2.25H0zM5.308 7.558h5.308v5.308H5.308zM21.231 2.25v15.923h15.923V2.25zm10.616 10.616h-5.308V7.558h5.308zM0 39.4h15.923V23.481H0zm5.308-10.611h5.308V34.1H5.308zM34.5 23.481h2.654V34.1h-7.961v-2.657h-2.654V39.4h-5.308V23.481h7.962v2.654H34.5zm0 13.269h2.654v2.65H34.5zm-5.308 0h2.654v2.65h-2.653z" class="cls-1" data-name="Icon awesome-qrcode" transform="translate(0 -2.25)"/>
+</svg>

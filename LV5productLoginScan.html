@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="scss/all.css">
+    <script src="https://kit.fontawesome.com/485c285ffd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="bg">
+            <header style="height: 44px; width: auto; background-color: #930000; position: relative;">
+                <a class="backBtn" href="#">
+                    <i class="fas fa-chevron-left fa-2x"></i>
+                </a>
+                <div class="d-flex justify-content-center">
+                    <div class="headerImg">
+                    </div>
+                </div>
+            </header>
+            <h1 style="text-align: center; color: #ffffff; font-size: 20px; font-weight: bold; margin-top: 20px;">保固登錄
+            </h1>
+            <div
+                style="width: 325px; height: 360px; background-color: #292929; border-radius: 39px; margin: 20px auto; position: relative;">
+                <div
+                    style="width: 240px; height: 240px; border-radius: 31px; border: dotted 5px #ffffff;position: absolute; top: 40%; left: 50%; transform: translate(-50%,-40%);">
+                </div>
+            </div>
+            <div class="d-inline-flex w-100 justify-content-around">
+                <div>
+                    <label class="customLabel">安裝車種</label>
+                    <span class="customSpan">XDD</span>
+                </div>
+                <div>
+                    <label class="customLabel">車種cc數</label>
+                    <span class="customSpan">甲</span>
+                </div>
+                <div>
+                    <label class="customLabel">安裝前電壓</label>
+                    <span class="customSpan">200</span>
+                </div>
+            </div>
+
+            <div class="footerBar">
+                <div class="d-inline-flex justify-content-between"
+                    style="width: 100%; padding: 0 25px; padding-top: 18px;">
+                    <a href="./LV5productLoginScan.html">
+                        <i class="fas fa-qrcode"></i>
+                    </a>
+                    <a href="#">
+                        <i class="material-icons">message</i>
+                    </a>
+                    <a href="./LV1~4login.html">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style scoped>
+        .productCode {
+            width: 100px;
+            height: 100px;
+            background-color: #930000;
+            border-radius: 50%;
+            box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.16);
+            color: #ffffff;
+            font-size: 18px;
+            border: 0;
+        }
+
+        .customLabel {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 5px;
+        }
+
+        .customSpan {
+            display: block;
+            color: #ffffff;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        ::-webkit-input-placeholder {
+            color: #ffffff;
+            opacity: 0.5;
+        }
+    </style>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.backBtn').click(function (e) {
+                e.preventDefault();
+                window.history.back();
+            })
+            $('.brownBtn').click(function(e){
+                e.preventDefault();
+                $(location).attr('href', './LV2~4productLoginResult.html');
+            })
+        });
+    </script>
+</body>
+
+</html>
